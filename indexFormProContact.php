@@ -20,6 +20,6 @@
 
     mail($mailTo, $subject, $txt, $headers) or die("Erreur, veuillez renvoyer un mail plus tard :(");
     print_r(error_get_last()); 
-    header("location:index.php?form=success");
+    header("location:index.html");
     print_r(error_get_last()); 
 ?>
